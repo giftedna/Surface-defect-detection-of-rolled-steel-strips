@@ -16,6 +16,11 @@ A six-class surface defect detection project for hot-rolled steel strips, implem
 
 The original repository does not provide an explicit open-source license. This repository only contains self-implemented training and inference code for academic research and graduation project purposes. Dataset files are NOT included in this repository. Please download the dataset from the link above. Redistribution or commercial use of the NEU Metal Surface Defects Data is prohibited without explicit permission from the original author.
 
+### Pre-trained Weights
+The trained weight `best_model.pth` is not stored in this repository to reduce repository size.
+Option 1: Run `train.py` from scratch to train and generate the checkpoint.
+Option 2: Download the pre-trained weight from https://pan.baidu.com/s/1b_-rX_51-2tbneil8dhfdQ?pwd=tsbn, and place it in the project root directory before inference.
+
 ## Project Structure
 
 ```
