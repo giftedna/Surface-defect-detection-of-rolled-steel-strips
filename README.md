@@ -25,12 +25,14 @@ Option 2: Download the pre-trained weight from https://pan.baidu.com/s/1b_-rX_51
 
 ```
 Surface defect detection of rolled steel strips/
-├── model.py          # CNN model definition
-├── dataset.py        # Dataset loading
-├── train.py          # Training script (GPU accelerated)
-├── predict.py        # Inference script
-├── README.md         # This file
-└── best_model.pth    # Trained weights (generated after training)
+├── model.py                    # CNN model definition
+├── dataset.py                  # Dataset loading
+├── train.py                    # Training script (GPU accelerated)
+├── predict.py                  # Inference script
+├── visualize_predictions.py    #Visualize your predictions
+├── README.md                   # This file
+└── best_model.pth              # Trained weights (generated after training)
+
 ```
 
 ## Quick Start
